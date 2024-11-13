@@ -41,3 +41,21 @@
   color: #fff;
   border-radius: 5px;
 }
+
+// page de connexion
+/* Exemple pour ajouter une bordure arrondie au formulaire */
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajouter un effet au survol des liens */
+.text-muted:hover {
+  color: #007bff;  /* Changer la couleur au survol */
+  text-decoration: underline;  /* Sous-ligner lors du survol */
+}
+
