@@ -9,7 +9,16 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
+    <%= render "shared/navbar" %>
+<!-- Menu horizontal -->
+  <nav class="navbar1">
+    <ul class="menu">
+      <li><%= link_to 'ASICS', asics_path %></li>
+      <li><%= link_to 'Câblage', cablage_path %></li>
+      <li><%= link_to 'DA', da_path %></li>
+      <li><%= link_to 'Coating', coating_path %></li>
+    </ul>
+  </nav>
   <body>
     <%= yield %>
   </body>
